@@ -1,0 +1,22 @@
+# robots.txt for FREEBLE
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /.next/
+
+# Allow crawling of important pages
+Allow: /
+Allow: /services
+Allow: /about
+Allow: /contact
+
+# Sitemap
+Sitemap: https://freeble.com/sitemap.xml
+
+# Rate limiting (optional, for aggressive crawlers)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
