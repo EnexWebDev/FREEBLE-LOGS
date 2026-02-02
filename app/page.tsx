@@ -8,6 +8,7 @@ import { StatsSection } from "@/components/home/stats-section"
 import { TestimonialsSection } from "@/components/home/testimonials-section"
 import { CTASection } from "@/components/home/cta-section"
 
+
 export const metadata: Metadata = {
   title: "FREEBLE - Buy Social Media Accounts | Verified & Fast",
   description: "Buy verified social media accounts for Instagram, TikTok, and Twitter/X. Fast, trusted, and secure transactions with FREEBLE.",
